@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Döner to TGM</title>
+    <link rel="shortcut icon" href="../images/logo_tab.png" type="favicon/ico">
+    <!-- Base CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body style="background-color:#F7D8BA">
+	<div class="row">
+		<!-- Überschrift -->
+		<div class="col-xs-6">
+			<img src="../images/logo.png" width="20%">
+		</div>
+		
+		<!-- Input feld -->
+		<div class="col-xs-2 col-xs-push-4">
+			<div class="input-field">
+				Username:<br>
+				<input type="text"><br>
+				Passwort:<br>
+				<input type="text">
+			</div>
+		</div>
+	</div><!--row-->
+	
+	<div class="row">
+		<!-- Restaurants -->
+		<div class="col-xs-1">
+			<div class="rectangle rectangle-restaurant">
+				<p class="subtitle"> Restaurants </p>
+					<img src="../images/doeblinger_leckerland.png" width="98%" class="restaurant-logo" onclick="info('Döblinger Lekkerland','Döblinger Hauptstraße 23-25 , 1190 Wien','doeblinger-leckerland-wien.at','10:00 - 02:00')">
+					<img src="../images/olle.png" width="98%" class="restaurant-logo" onclick="info('OLLEE Pizza-Kebap-Schnitzel','Hollandstraße 1a,1020 Wien','ollepizza-kebap-schnitzel.at','10:00 - 23:00')">
+					<img src="../images/mampf.png" width="98%" class="restaurant-logo" onclick="info('Mampf Wien - CAFE UND RESTAURANT','Hellwagstraße 7, 1200 Wien	','mampfwien.at','10:00 - 23:00')">
+					<img src="../images/saphire.png" width="98%" class="restaurant-logo" onclick="info('Saphire Restaurant','Jägerstraße 35, 1200 Wien','saphirerestaurant.at','06:00 – 23:00')">
+					<img src="../images/xtanbul.png" width="98%" class="restaurant-logo" onclick="info('Xtanbul Restaurant','Hellwag Straße 16, 1200 Wien','Keine Info','Keine Info')">
+			</div>
+		</div>
+		
+		<div class="row">
+			<!-- Kategorien -->
+			<div class="col-xs-3 col-xs-push-1">
+				<div class="rectangle rectangle-category">
+					<p class="subtitle">
+						Kategorien
+					</p>
+						<ul>
+							<li class="category-list">Boxen</li>
+							<li class="category-list">Beilagen</li>
+							<li class="category-list">Suppen</li>
+							<li class="category-list">Kalte Vorspeisen</li>
+							<li class="category-list">Warme Vorspeisen</li>
+							<li class="category-list">Grillspezialitäten</li>
+						</ul>
+				</div>
+			</div>
+			
+			<!--  News + Angebote -->
+			<div class="col-xs-3 col-xs-push-2">
+				<div class="rectangle rectangle-news">
+					<p class="subtitle">
+						News
+					</p>
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				</div>
+				<br>
+				<br>
+				<br>
+				<div class="rectangle rectangle-angebot">
+					<p class="subtitle">
+						Angebot
+					</p>
+					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				</div>
+			</div>
+			
+			<!-- Werbung2 -->
+			<div class="col-xs-1 col-xs-push-3">
+				<div class="rectangle rectangle-werbung2">
+					 <div style="font-size: 2em; text-align: center"> Hier könnte Ihre </div> <br> <br> <br> <br>
+					 <div style="font-size: 6em; transform: rotate(90deg)"> WERBUNG </div>
+					 <div style="font-size: 2em; margin-top: 160%; text-align: center"> stehen </div>
+				</div>
+			</div>	
+			
+			
+		</div><!-- row-->
+		
+		
+		<div class="row">
+			<!-- Werbung1 -->
+			<div class="col-xs-12 col-xs-push-2">
+				<div class="rectangle rectangle-werbung1">
+					<span style="font-size: 2em;margin-left: 22%"> Hier könnte Ihre </span>
+					 <span style="font-size: 4em"> WERBUNG </span>
+					 <span style="font-size: 2em; margin-top: 160%; text-align: center"> stehen </span>
+				</div>
+			</div>
+		</div><!-- row -->
+		
+		
+		
+		
+	</div> <!-- row-->
+	
+	<script type="text/javascript" src="js/functionality.js"></script>
+</body>
+</html>

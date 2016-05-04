@@ -1,0 +1,73 @@
+.title{
+	font-size: 3em;
+	color: red;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.rectangle{
+	background: transparent;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: white;
+	
+}
+
+.rectangle-restaurant{
+	width: 200px;
+	max-height: 920px;
+}
+
+
+.rectangle-category{
+	width: 500px;
+	max-height: 700px;
+}
+
+.rectangle-news{
+	width: 500px;
+	max-height: 330px;
+}
+
+
+.rectangle-angebot{
+	width: 500px;
+	max-height: 330px;
+}
+
+.rectangle-werbung1{
+	width: 1160px;
+	max-height: 70px;
+	margin-top: -3.5%;
+	margin-left: 0.6%;
+}
+
+.rectangle-werbung2{
+	width: 200px;
+	max-height: 800px;
+	margin-top: 20%;
+}
+
+.subtitle{	
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.restaurant-logo{
+	margin-top: 10%;
+	border: 5px solid black;
+}
+
+.category-list{
+	margin-top: 14%;
+	font-size: 2em;
+
+	text-shadow: 1px 1px gray;
+}
+
